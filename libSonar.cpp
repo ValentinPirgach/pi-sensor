@@ -16,7 +16,7 @@ void Sonar::init(int trigger, int echo)
 
 double Sonar::distance(int timeout)
 {
-    delay(10);
+    delay(100);
 
     digitalWrite(trigger, HIGH);
     delayMicroseconds(10);
