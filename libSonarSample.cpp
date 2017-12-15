@@ -4,8 +4,8 @@
 
 using namespace std;
 
-int trigger = 23;
-int echo = 24;
+int trigger = 24;
+int echo = 23;
 
 int main()
 {
